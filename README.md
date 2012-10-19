@@ -2,7 +2,7 @@ xampphost
 =========
 
 
-##Automatic creation of new hosts for XAMPP/Mac.
+## Automatic creation of new hosts for XAMPP/Mac
 
 Script creates new directory and subdirectory 'www' in a directory, where you store your web projects. Then, adds this directory to XAMPP vhosts file and creates hostname, adds hostname to `/etc/hosts` and restarts XAMPP's Apache. 
 
@@ -13,5 +13,5 @@ Script creates new directory and subdirectory 'www' in a directory, where you st
 3. Edit file, configure path to your project folder and XAMPP location
 4. Run: `sudo ./xampphost.sh newhost`
 
-Script will create directory `newhost/www` in your webproject folder and adds 2 hosts newhost and newhost.dev. Also, it creates basic index.html file to show it works.
+Script will create directory `newhost/www` in your webproject folder and adds 2 hosts newhost and newhost.dev. Also it creates basic index.html file to show it works.
 

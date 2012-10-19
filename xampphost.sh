@@ -15,8 +15,11 @@ if [ -z "$1" ]
 fi
 
 # Root directory for webprojects
-# I store my sites in ~/sites/
+# I store my sites in ~/sites/ that points to /Users/${SUDO_USER}/sites/
+# where $SUDO_USER -- my current username and name of my homedir
+#
 # Change to your directory!
+#
 WEBDIR=/Users/${SUDO_USER}/sites/
 
 # File with XAMPP virtual hosts
