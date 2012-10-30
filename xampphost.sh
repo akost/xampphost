@@ -20,7 +20,7 @@ fi
 #
 # Change to your directory!
 #
-WEBDIR=/Users/${SUDO_USER}/sites/
+WEBDIR=/Users/${SUDO_USER}/sites
 
 # File with XAMPP virtual hosts
 XAMPPHOSTS=/Applications/XAMPP/xamppfiles/etc/extra/httpd-vhosts.conf
